@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<?charles serialisation-version='2.0' ?>
+<rewriteSet-array>
+  <rewriteSet>
+    <active>true</active>
+    <name>fancycar get</name>
+    <hosts>
+      <locationPatterns>
+        <locationMatch>
+          <location>
+            <protocol>https</protocol>
+            <host>www.google.ca</host>
+            <path>/cars</path>
+          </location>
+          <enabled>true</enabled>
+        </locationMatch>
+      </locationPatterns>
+    </hosts>
+    <rules>
+      <rewriteRule>
+        <active>true</active>
+        <ruleType>7</ruleType>
+        <matchValue></matchValue>
+        <matchHeaderRegex>false</matchHeaderRegex>
+        <matchValueRegex>false</matchValueRegex>
+        <matchRequest>false</matchRequest>
+        <matchResponse>true</matchResponse>
+        <newValue>[      {         &quot;id&quot;:&quot;1&quot;,       &quot;img&quot;:&quot;https://amp.businessinsider.com/images/592f4169b74af41b008b5977-1334-1001.jpg&quot;,       &quot;name&quot;:&quot;ferrari 458&quot;,       &quot;make&quot;:&quot;Ferrari&quot;,       &quot;model&quot;:&quot;458&quot;,       &quot;year&quot;:&quot;2018&quot;    },    {         &quot;id&quot;:&quot;2&quot;,       &quot;img&quot;:&quot;https://cdn1.i-scmp.com/sites/default/files/styles/landscape/public/images/methode/2017/11/08/8ca396e0-c432-11e7-9f00-d8b0ccf89a9f_1280x720_145224.jpg&quot;,       &quot;name&quot;:&quot;My Fancy Car 2&quot;,       &quot;make&quot;:&quot;Nissan&quot;,       &quot;model&quot;:&quot;Sentra&quot;,       &quot;year&quot;:&quot;2006&quot;    },    {         &quot;id&quot;:&quot;3&quot;,       &quot;img&quot;:&quot;https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/gallery_slide/public/images/car-reviews/first-drives/legacy/gallardo-0638.jpg&quot;,       &quot;name&quot;:&quot;Lamborghini&quot;,       &quot;make&quot;:&quot;LamborUrus-Red&quot;,       &quot;model&quot;:&quot;Automobili Lamborghini S.p.A.&quot;,       &quot;year&quot;:&quot;2008&quot;    },    {         &quot;id&quot;:&quot;4&quot;,       &quot;img&quot;:&quot;https://www.popsci.com/sites/popsci.com/files/styles/1000_1x_/public/images/2018/03/senna.jpg?itok=eYNPMGjA&amp;fc=50,50&quot;,       &quot;name&quot;:&quot;MCLAREN SENNA&quot;,       &quot;make&quot;:&quot;McLaren&quot;,       &quot;model&quot;:&quot;senna&quot;,       &quot;year&quot;:&quot;2019&quot;    },    {         &quot;id&quot;:&quot;5&quot;,       &quot;img&quot;:&quot;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuuBjFL1wvYPI_gPjbVrSN_Y7HR3drv8iCdb9k4kmNtZX-vSEs&quot;,       &quot;name&quot;:&quot;My Fancy Car 5&quot;,       &quot;make&quot;:&quot;Nissan&quot;,       &quot;model&quot;:&quot;Sentra&quot;,       &quot;year&quot;:&quot;2006&quot;    },    {         &quot;id&quot;:&quot;6&quot;,       &quot;img&quot;:&quot;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuuBjFL1wvYPI_gPjbVrSN_Y7HR3drv8iCdb9k4kmNtZX-vSEs&quot;,       &quot;name&quot;:&quot;My Fancy Car 6&quot;,       &quot;make&quot;:&quot;Honda&quot;,       &quot;model&quot;:&quot;Pilot&quot;,       &quot;year&quot;:&quot;2008&quot;    },    {         &quot;id&quot;:&quot;7&quot;,       &quot;img&quot;:&quot;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuuBjFL1wvYPI_gPjbVrSN_Y7HR3drv8iCdb9k4kmNtZX-vSEs&quot;,       &quot;name&quot;:&quot;My Fancy Car 7&quot;,       &quot;make&quot;:&quot;MyMake&quot;,       &quot;model&quot;:&quot;MyModel&quot;,       &quot;year&quot;:&quot;2018&quot;    },    {         &quot;id&quot;:&quot;8&quot;,       &quot;img&quot;:&quot;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuuBjFL1wvYPI_gPjbVrSN_Y7HR3drv8iCdb9k4kmNtZX-vSEs&quot;,       &quot;name&quot;:&quot;My Fancy Car 8&quot;,       &quot;make&quot;:&quot;Nissan&quot;,       &quot;model&quot;:&quot;Sentra&quot;,       &quot;year&quot;:&quot;2006&quot;    },    {         &quot;id&quot;:&quot;9&quot;,       &quot;img&quot;:&quot;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuuBjFL1wvYPI_gPjbVrSN_Y7HR3drv8iCdb9k4kmNtZX-vSEs&quot;,       &quot;name&quot;:&quot;My Fancy Car 9&quot;,       &quot;make&quot;:&quot;Honda&quot;,       &quot;model&quot;:&quot;Pilot&quot;,       &quot;year&quot;:&quot;2008&quot;    },    {         &quot;id&quot;:&quot;10&quot;,       &quot;img&quot;:&quot;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYKOBU3Y1go7PDGhTDGg_a9iWd5ATvNU6RffMF-_M2LWA3NYjQ&quot;,       &quot;name&quot;:&quot;My Fancy Car 10&quot;,       &quot;make&quot;:&quot;MyMake&quot;,       &quot;model&quot;:&quot;MyModel&quot;,       &quot;year&quot;:&quot;2018&quot;    },    {         &quot;id&quot;:&quot;11&quot;,       &quot;img&quot;:&quot;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRqRN2X3jDJswo9gH40pfGBHIRzF0L2DulPGei1Di24TJ_dZPA&quot;,       &quot;name&quot;:&quot;My Fancy Car 11&quot;,       &quot;make&quot;:&quot;Nissan&quot;,       &quot;model&quot;:&quot;Sentra&quot;,       &quot;year&quot;:&quot;2006&quot;    },    {         &quot;id&quot;:&quot;12&quot;,       &quot;img&quot;:&quot;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuuBjFL1wvYPI_gPjbVrSN_Y7HR3drv8iCdb9k4kmNtZX-vSEs&quot;,       &quot;name&quot;:&quot;My Fancy Car 12&quot;,       &quot;make&quot;:&quot;Honda&quot;,       &quot;model&quot;:&quot;Pilot&quot;,       &quot;year&quot;:&quot;2008&quot;    },    {         &quot;id&quot;:&quot;13&quot;,       &quot;img&quot;:&quot;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuuBjFL1wvYPI_gPjbVrSN_Y7HR3drv8iCdb9k4kmNtZX-vSEs&quot;,       &quot;name&quot;:&quot;My Fancy Car 13&quot;,       &quot;make&quot;:&quot;Nissan&quot;,       &quot;model&quot;:&quot;Sentra&quot;,       &quot;year&quot;:&quot;2006&quot;    },    {         &quot;id&quot;:&quot;14&quot;,       &quot;img&quot;:&quot;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuuBjFL1wvYPI_gPjbVrSN_Y7HR3drv8iCdb9k4kmNtZX-vSEs&quot;,       &quot;name&quot;:&quot;My Fancy Car 14&quot;,       &quot;make&quot;:&quot;Honda&quot;,       &quot;model&quot;:&quot;Pilot&quot;,       &quot;year&quot;:&quot;2008&quot;    },    {         &quot;id&quot;:&quot;15&quot;,       &quot;img&quot;:&quot;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYKOBU3Y1go7PDGhTDGg_a9iWd5ATvNU6RffMF-_M2LWA3NYjQ&quot;,       &quot;name&quot;:&quot;My Fancy Car 15&quot;,       &quot;make&quot;:&quot;MyMake&quot;,       &quot;model&quot;:&quot;MyModel&quot;,       &quot;year&quot;:&quot;2018&quot;    },    {         &quot;id&quot;:&quot;16&quot;,       &quot;img&quot;:&quot;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRqRN2X3jDJswo9gH40pfGBHIRzF0L2DulPGei1Di24TJ_dZPA&quot;,       &quot;name&quot;:&quot;My Fancy Car 16&quot;,       &quot;make&quot;:&quot;Nissan&quot;,       &quot;model&quot;:&quot;Sentra&quot;,       &quot;year&quot;:&quot;2006&quot;    },    {         &quot;id&quot;:&quot;17&quot;,       &quot;img&quot;:&quot;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuuBjFL1wvYPI_gPjbVrSN_Y7HR3drv8iCdb9k4kmNtZX-vSEs&quot;,       &quot;name&quot;:&quot;My Fancy Car 17&quot;,       &quot;make&quot;:&quot;Honda&quot;,       &quot;model&quot;:&quot;Pilot&quot;,       &quot;year&quot;:&quot;2008&quot;    },    {         &quot;id&quot;:&quot;18&quot;,       &quot;img&quot;:&quot;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuuBjFL1wvYPI_gPjbVrSN_Y7HR3drv8iCdb9k4kmNtZX-vSEs&quot;,       &quot;name&quot;:&quot;My Fancy Car 18&quot;,       &quot;make&quot;:&quot;Nissan&quot;,       &quot;model&quot;:&quot;Sentra&quot;,       &quot;year&quot;:&quot;2006&quot;    },    {         &quot;id&quot;:&quot;19&quot;,       &quot;img&quot;:&quot;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuuBjFL1wvYPI_gPjbVrSN_Y7HR3drv8iCdb9k4kmNtZX-vSEs&quot;,       &quot;name&quot;:&quot;My Fancy Car 19&quot;,       &quot;make&quot;:&quot;Honda&quot;,       &quot;model&quot;:&quot;Pilot&quot;,       &quot;year&quot;:&quot;2008&quot;    },    {         &quot;id&quot;:&quot;20&quot;,       &quot;img&quot;:&quot;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYKOBU3Y1go7PDGhTDGg_a9iWd5ATvNU6RffMF-_M2LWA3NYjQ&quot;,       &quot;name&quot;:&quot;My Fancy Car 20&quot;,       &quot;make&quot;:&quot;MyMake&quot;,       &quot;model&quot;:&quot;MyModel&quot;,       &quot;year&quot;:&quot;2018&quot;    },    {         &quot;id&quot;:&quot;21&quot;,       &quot;img&quot;:&quot;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRqRN2X3jDJswo9gH40pfGBHIRzF0L2DulPGei1Di24TJ_dZPA&quot;,       &quot;name&quot;:&quot;My Fancy Car 21&quot;,       &quot;make&quot;:&quot;Nissan&quot;,       &quot;model&quot;:&quot;Sentra&quot;,       &quot;year&quot;:&quot;2006&quot;    },    {         &quot;id&quot;:&quot;22&quot;,       &quot;img&quot;:&quot;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuuBjFL1wvYPI_gPjbVrSN_Y7HR3drv8iCdb9k4kmNtZX-vSEs&quot;,       &quot;name&quot;:&quot;My Fancy Car 22&quot;,       &quot;make&quot;:&quot;Honda&quot;,       &quot;model&quot;:&quot;Pilot&quot;,       &quot;year&quot;:&quot;2008&quot;    } ]</newValue>
+        <newHeaderRegex>false</newHeaderRegex>
+        <newValueRegex>false</newValueRegex>
+        <matchWholeValue>true</matchWholeValue>
+        <caseSensitive>false</caseSensitive>
+        <replaceType>2</replaceType>
+      </rewriteRule>
+      <rewriteRule>
+        <active>true</active>
+        <ruleType>11</ruleType>
+        <matchValue>404</matchValue>
+        <matchHeaderRegex>false</matchHeaderRegex>
+        <matchValueRegex>false</matchValueRegex>
+        <matchRequest>false</matchRequest>
+        <matchResponse>false</matchResponse>
+        <newValue>200</newValue>
+        <newHeaderRegex>false</newHeaderRegex>
+        <newValueRegex>false</newValueRegex>
+        <matchWholeValue>false</matchWholeValue>
+        <caseSensitive>false</caseSensitive>
+        <replaceType>2</replaceType>
+      </rewriteRule>
+    </rules>
+  </rewriteSet>
+</rewriteSet-array>
